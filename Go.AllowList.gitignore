@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.go
+!go.sum
+!go.mod
+!*.md
+!LICENSE
+# !Makefile
+
+# ...even if they are in subdirectories
+!*/
+
+# except these in subdirs
+/**/.gitignore
